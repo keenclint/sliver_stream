@@ -16,7 +16,7 @@ document.getElementById('register').addEventListener('submit', function(event) {
     register_btn.disabled = true;
 
     // Simulated endpoint for login (replace this with your actual endpoint)
-    const loginEndpoint = 'http://127.0.0.1:8000';
+    const loginEndpoint = 'https://sliver-stream.onrender.com';
     console.log(JSON.stringify({
       'username': formData.get('username'), 
       'password': formData.get('password'),

@@ -5,7 +5,7 @@ const register_btn = document.getElementById('create');
 const bene_list = document.getElementById("bene_list")
 const bene_no_list = document.getElementById("bene_no_list")
 
-const loginEndpoint = 'http://127.0.0.1:8000';
+const loginEndpoint = 'https://sliver-stream.onrender.com';
 const username = localStorage.getItem("username");
 
 

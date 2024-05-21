@@ -1,4 +1,4 @@
-const loginEndpoint = 'http://127.0.0.1:8000';
+const loginEndpoint = 'https://sliver-stream.onrender.com';
 const username = localStorage.getItem("username");
 
     fetch(`${loginEndpoint}/user/${username}`) // Replace URL with your API endpoint

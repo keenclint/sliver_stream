@@ -13,7 +13,7 @@ let transactions = 0;
 //noList.style.display = 'block';
 
 
-const loginEndpoint = 'http://127.0.0.1:8000';
+const loginEndpoint = 'https://sliver-stream.onrender.com';
 
 fetch(`${loginEndpoint}/dashboard/${username}`) // Replace URL with your API endpoint
 .then(response => {
